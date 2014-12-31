@@ -1,0 +1,23 @@
+/Users/e135761/search/info2/nn/bp_mo% cat suitable.txt | grep -e 'ETA' -e 'the'
+ETA:1.89  ALPHA:0.82    HIDDEN:14
+the avarage is 102.
+ETA:1.79  ALPHA:0.80    HIDDEN:10
+the avarage is 120.
+ETA:1.20  ALPHA:0.90    HIDDEN:5
+the avarage is 115.
+ETA:1.22  ALPHA:0.86    HIDDEN:14
+the avarage is 114.
+ETA:0.85  ALPHA:0.94    HIDDEN:15
+the avarage is 55
+ETA:1.80  ALPHA:0.83    HIDDEN:10
+the avarage is 102.
+ETA:1.74  ALPHA:0.77    HIDDEN:14
+the avarage is 137.
+ETA:1.26  ALPHA:0.94    HIDDEN:16
+the avarage is 42.
+ETA:1.60  ALPHA:0.93    HIDDEN:10
+the avarage is 46.
+ETA:0.84  ALPHA:0.93    HIDDEN:16
+the avarage is 70.
+ETA:0.69  ALPHA:0.94    HIDDEN:13
+the avarage is 78.

@@ -1,0 +1,21 @@
+/Users/e135761/search/info2/nn/bp_mo% cat unsuitable.txt | grep -e 'ETA' -e 'the'
+ETA:0.14  ALPHA:0.29    HIDDEN:9
+the avarage is 5344.
+ETA:0.38  ALPHA:0.25    HIDDEN:2
+the avarage is 12870.
+ETA:0.37  ALPHA:0.94    HIDDEN:2
+the avarage is 20202.
+ETA:0.0  ALPHA:0.78    HIDDEN:9
+the avarage is 100000.
+ETA:0.81  ALPHA:0.49    HIDDEN:2
+the avarage is 10938.
+ETA:0.16  ALPHA:0.22    HIDDEN:4
+the avarage is 6317.
+ETA:0.57  ALPHA:0.25    HIDDEN:2
+the avarage is 11891.
+ETA:1.70  ALPHA:0.27    HIDDEN:2
+the avarage is 33521.
+ETA:1.49  ALPHA:0.44    HIDDEN:2
+the avarage is 30505.
+ETA:1.68  ALPHA:0.72    HIDDEN:2
+the avarage is 40170.
