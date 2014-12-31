@@ -56,7 +56,7 @@ bp\_mo\_exor.cの終了条件$FINISH$を出力するfprintf関数のstderrをstd
 
 各パラメータが$ETA=1.26, ALPHA=0.94, HIDDEN=16$の時，表\ref{table:level2}のような結果が得られた．
 その時の学習曲線は図\ref{fig:averageultimate}のようになる．
-図\ref{fig:averageultimate}はseed値別にプロットしたグラフを元にsmooth uniqueオプションを用いて平均化を行い，得られたものである．
+図\ref{fig:averageultimate}はgnuplotを用いてseed値別にプロットしたグラフを元にsmooth uniqueオプションで平均化を行い，得られたものである．
 
 \begin{figure}[h]
  \begin{center}
@@ -75,10 +75,31 @@ bp\_mo\_exor.cの終了条件$FINISH$を出力するfprintf関数のstderrをstd
         \verbatimtabinput{./level2figs/suitables.txt}
     }
 \end{itembox}
-10回の実行結果における共通点は，いずれも
+10回の実行結果における共通点は，いずれもALPHA値が1に近い値をとるという点だった． \\
+　続いて，平均iteration数が大きい実行結果を示す．
 
 \begin{itembox}[c]{平均iteration数が大きい実行結果}
     {\small
         \verbatimtabinput{./level2figs/unsuitables.txt}
     }
 \end{itembox}
+
+平均iteration数が小さいときのパラメータと平均iteration数が大きいときのそれとを比較すると，
+HIDDENの値が小さいと平均iteration数が大きくなり，
+反対に値が大きいと平均試行回数が小さくなるという結果になった．
+また$ETA$に関しては，0を設定しない限りiteration数に大きな影響を
+与えないことが伺える．
+%また，$ETA$の値が0だと学習回数が100000を越える結果となった．
+%これら実行結果より，$ETA,ALPHA,HIDDEN$は
+これら実行結果より，最も効率良く学習が収束するパラメータの組み合わせは，表\ref{table:parameters}のようになる．
+
+\begin{table}[htb]
+ \begin{center}
+  \begin{tabular}[htb]{|c|c|c|} \hline
+   $ETA$ & $ALPHA$ & $HIDDEN$ \\ \hline \hline
+   0以外の数値 & 1に近い値 & できるだけ大きい数値\\ \hline
+  \end{tabular}
+  \caption{最適なパラメータの組み合わせ}
+  \label{table:parameters}
+ \end{center}
+\end{table}
