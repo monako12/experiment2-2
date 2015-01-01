@@ -91,13 +91,33 @@ HIDDENの値が小さいと平均iteration数が大きくなり，
 与えないことが伺える．
 %また，$ETA$の値が0だと学習回数が100000を越える結果となった．
 %これら実行結果より，$ETA,ALPHA,HIDDEN$は
-これら実行結果より，最も効率良く学習が収束するパラメータの組み合わせは，表\ref{table:parameters}のようになる．
+これら実行結果より，最も効率良く学習が収束するパラメータの組み合わせは，表\ref{table:parameters_prediction}のようになると仮説を立てた．
 
 \begin{table}[htb]
  \begin{center}
   \begin{tabular}[htb]{|c|c|c|} \hline
    $ETA$ & $ALPHA$ & $HIDDEN$ \\ \hline \hline
    0以外の数値 & 1に近い値 & できるだけ大きい数値\\ \hline
+  \end{tabular}
+  \caption{最適と思われるパラメータの組み合わせ}
+  \label{table:parameters_prediction}
+ \end{center}
+\end{table}
+
+しかし，$ETA=1.26, ALPHA=0.94$のままで$HIDDEN$値を100にすると，
+平均試行回数は大きくなり12711回となった．単純に$HIDDEN$値を大きくすればよいわけではないことが分かる．
+次に，$ETA=1.26, HIDDEN=16$のままで$ALPHA$を0.99に設定して実行したところ，これも平均試行回数が32999となり，1に近い値を設定すればよいという仮説は棄却された．
+他の数値も試したが，$ALPHA=0.94$がベストな値であった．
+続いて，$ALPHA=0.94, HIDDEN=16$のままで$ETA$の値を変更してみたところ，$0.8 \le ETA \le 1.6$の範囲では平均試行回数は51や45などどれも少なかった．
+その中で，平均試行回数がもっとも少なかったのは40回で，$ETA=1.5$のときであった．
+このことから最適なパラメータの組み合わせは表\ref{table:parameters}のようになる．
+%このことから表\ref{table:parameters}の組み合わせが最適なパラメータである．
+
+\begin{table}[htb]
+ \begin{center}
+  \begin{tabular}[htb]{|c|c|c|c|} \hline
+   $ETA$ & $ALPHA$ & $HIDDEN$ & 平均試行回数\\ \hline \hline
+   1.50 & 0.94 & 16 & 40\\ \hline
   \end{tabular}
   \caption{最適なパラメータの組み合わせ}
   \label{table:parameters}
