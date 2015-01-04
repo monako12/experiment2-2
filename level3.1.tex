@@ -1,46 +1,42 @@
-\subsection{Level3.1: $B%Q%i%a!<%?$N%A%e!<%K%s%0(B}
-\subsubsection{$B:GE,$J%Q%i%a!<%?$rC5$9$?$a$N%"%W%m!<%A(B}
-$B;XDj$5$l$?>r7o2<$K$*$$$F3X=,$,8zN(NI$/9T$o$l$k%Q%i%a!<%?$NAH$_9g$o$;$rC5(B
-$B$9$?$a!"!v!v$7$F!v!v$9$k$3$H$G%Q%i%a!<%?$rD4@0$7$?!#(B
+\subsection{Level3.1: パラメータのチューニング}
+\subsubsection{最適なパラメータを探すためのアプローチ}
+指定された条件下において学習が効率良く行われるパラメータの組み合わせを探
+すため、
+hiddenを10から100まで10づつ増やしていき,etaを0.01から1.98まで0.01づつ増
+やし,alphaを0.1から1.0まで0.1づつ増やしていきその中から一番値が小さい物
+を探した.その動作をスクリプトを書いて実行させた.
 
-$B!JJdB-!'A4%Q%?!<%s$rD4$Y$F$bNI$$$7!"$$$/$D$+$N%Q%?!<%s$rD4$Y$F$bNI$$$,!"(B
-$B$I$N$h$&$JJ}K!$GD4@0$7$?$iNI$$$+$r9M$($h$&!#$=$N>e$G!"<+J,$?$A$,$I$N$h(B
-$B$&$K<h$jAH$s$@$N$+!J!a%"%W%m!<%A!K$r@bL@$7$h$&!#!K(B
-
-\subsubsection{$B<B9T7k2L(B}
-
-$B!JJdB-!'%\!<%J%9%]%$%s%H$N3NG'$,$"$j$^$9$N$G!"%7!<%ICM(B10$B%Q%?!<%s$G;n$7$?:]$N<}(B
-$BB+$KMW$7$?3X=,2s?t$H!"$=$NJ?6Q2s?t$,J,$+$k$h$&$KL@<($7$F$/$@$5$$!#!K(B
+\subsubsection{実行結果}
+各パラメータが ET A = 1.26, ALPHA = 0.94, HIDDEN = 16 の時, 3 のよ
+うな結果が得られた.その時の学習曲線 は図43 のようになる.
 \begin{table}[htb]
  \begin{center}
-  \caption{$B3,AX7?(BNN$B$K$h$kJ8;zG'<1LdBj$N3X=,$KMW$7$?2s?t(B}
+  \caption{階層型NNによる文字認識問題の学習に要した回数}
   \label{table:level3}
   \begin{tabular}[htb]{r|l} \hline
-   $B%7!<%ICM(B & $B<}B+$7$?2s?t(B \\ \hline \hline
-   100 & hoge \\ \hline
-   200 & hoge \\ \hline
-   300 & hoge \\ \hline
-   400 & hoge \\ \hline
-   500 & hoge \\ \hline
-   600 & hoge \\ \hline
-   700 & hoge \\ \hline
-   800 & hoge \\ \hline
-   900 & hoge \\ \hline
-   1000 & hoge \\ \hline \hline
-   10$B;n9T$NJ?6QCM(B & hoge \\ \hline
+   シード値 & 収束した回数 \\ \hline \hline
+   1000 & 97 \\ \hline
+   2000 & 81 \\ \hline
+   3000 & 108 \\ \hline
+   4000 & 106 \\ \hline
+   5000 & 46 \\ \hline
+   6000 & 130 \\ \hline
+   7000 & 85 \\ \hline
+   8000 & 89 \\ \hline
+   9000 & 134 \\ \hline
+   10000 & 84 \\ \hline \hline
+   10試行の平均値 & 95.9 \\ \hline
   \end{tabular}
  \end{center}
 \end{table}
 
 \begin{figure}[h]
  \begin{center}
-  \includegraphics[width=10.0cm]{figs/sample2.eps}
-  \caption{$B=E$_$r99?7$9$kMM;R!JJ?6QCM!K(B}
+  \includegraphics[width=10.0cm]{ave.eps}
+  \caption{重みを更新する様子（平均値）}
   \label{fig:level2}
  \end{center}
 \end{figure}
-
-
-\subsubsection{$B9M;!(B}
+\newpage
 
 
