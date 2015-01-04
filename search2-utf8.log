@@ -1,4 +1,4 @@
-This is pTeX, Version 3.141592-p3.1.10 (utf8.euc) (Web2C 7.5.4) (format=platex 2012.6.18)  1 JAN 2015 20:18
+This is pTeX, Version 3.141592-p3.1.10 (utf8.euc) (Web2C 7.5.4) (format=platex 2012.6.18)  4 JAN 2015 10:45
 **search2-utf8.tex
 (./search2-utf8.tex
 pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2003/12/01> patch level 0)
@@ -445,7 +445,7 @@ File: figs/sample2.eps Graphic file (type eps)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./level3.2.tex) (./level3.3.tex [8]) (./level3.4.tex) [9] [10]
+) (./level3.2.tex) (./level3.3.tex [8]) (./level3.4.tex [9]) [10] [11]
 (./search2-utf8.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -460,4 +460,4 @@ Here is how much of TeX's memory you used:
  566 hyphenation exceptions out of 8191
  29i,9n,40p,229b,1245s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on search2-utf8.dvi (10 pages, 44116 bytes).
+Output written on search2-utf8.dvi (11 pages, 47320 bytes).
