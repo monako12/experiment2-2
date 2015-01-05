@@ -1,0 +1,10 @@
+data.ja2/learn0.txt
+data.ja2/learn1.txt
+data.ja2/learn2.txt
+data.ja2/learn3.txt
+data.ja2/learn4.txt
+data.ja2/learn5.txt
+data.ja2/learn6.txt
+data.ja2/learn7.txt
+data.ja2/learn8.txt
+data.ja2/learn9.txt

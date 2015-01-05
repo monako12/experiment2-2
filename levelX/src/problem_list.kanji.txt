@@ -1,0 +1,10 @@
+data.kanji/learn0.txt
+data.kanji/learn1.txt
+data.kanji/learn2.txt
+data.kanji/learn3.txt
+data.kanji/learn4.txt
+data.kanji/learn5.txt
+data.kanji/learn6.txt
+data.kanji/learn7.txt
+data.kanji/learn8.txt
+data.kanji/learn9.txt

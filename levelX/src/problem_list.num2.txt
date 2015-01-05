@@ -1,0 +1,9 @@
+data.num2/learn1.txt
+data.num2/learn2.txt
+data.num2/learn3.txt
+data.num2/learn4.txt
+data.num2/learn5.txt
+data.num2/learn6.txt
+data.num2/learn7.txt
+data.num2/learn8.txt
+data.num2/learn9.txt

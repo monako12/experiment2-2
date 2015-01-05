@@ -1,0 +1,541 @@
+teach[0] = 1000000000
+0011111100
+0100000010
+1000000001
+1000000001
+1000000001
+1000000001
+1000000001
+1000000001
+0100000010
+0011111100
+teach[1] = 0100000000
+0000010000
+0000010000
+0000010000
+0000010000
+0000010000
+0000010000
+0000010000
+0000010000
+0000010000
+0000010000
+teach[2] = 0010000000
+0001111000
+0111001100
+0000000010
+0000000001
+0000000110
+0000011000
+0001100000
+0110000000
+0111111110
+0000000000
+teach[3] = 0001000000
+0001111000
+0111001100
+0000000010
+0000001100
+0000110000
+0000001100
+0000000010
+0000001100
+0111001100
+0001111000
+teach[4] = 0000100000
+0000110000
+0001010000
+0010010000
+0100010000
+1000010000
+1111111111
+0000010000
+0000010000
+0000010000
+0000010000
+teach[5] = 0000010000
+0000000000
+0011111100
+0010000000
+0010000000
+0011110000
+0000001100
+0000000110
+0000001100
+0011110000
+0000000000
+teach[6] = 0000001000
+0000000000
+0000111100
+0010000000
+0100000000
+1011110000
+1000001100
+0100000100
+0010011000
+0001100000
+0000000000
+teach[7] = 0000000100
+0000000000
+0111111100
+0000000100
+0000001000
+0000010000
+0000100000
+0001000000
+0010000000
+0100000000
+0000000000
+teach[8] = 0000000010
+0000000000
+0011111100
+0100000010
+1000000001
+0100000010
+0011111100
+0100000010
+1000000001
+0100000010
+0011111100
+teach[9] = 0000000001
+0000000000
+0000110000
+0011001100
+0100000010
+0011001100
+0001111000
+0000010000
+0000100000
+0001000000
+0010000000
+  ===== USAGE =====
+  learn: nn> l
+  check: nn> c
+  evaluation: nn> e
+       after that, input filename defined test-pattern
+  =================
+nn> 
+iteration =    1 error = 1.06742
+iteration =    2 error = 0.48621
+iteration =    3 error = 0.46396
+iteration =    4 error = 0.45830
+iteration =    5 error = 0.45452
+iteration =    6 error = 0.45125
+iteration =    7 error = 0.44810
+iteration =    8 error = 0.44478
+iteration =    9 error = 0.44109
+iteration =   10 error = 0.43699
+iteration =   11 error = 0.43269
+iteration =   12 error = 0.42830
+iteration =   13 error = 0.42391
+iteration =   14 error = 0.41959
+iteration =   15 error = 0.41540
+iteration =   16 error = 0.41134
+iteration =   17 error = 0.40741
+iteration =   18 error = 0.40362
+iteration =   19 error = 0.39999
+iteration =   20 error = 0.39656
+iteration =   21 error = 0.39338
+iteration =   22 error = 0.39044
+iteration =   23 error = 0.38772
+iteration =   24 error = 0.38517
+iteration =   25 error = 0.38273
+iteration =   26 error = 0.38034
+iteration =   27 error = 0.37794
+iteration =   28 error = 0.37546
+iteration =   29 error = 0.37285
+iteration =   30 error = 0.37008
+iteration =   31 error = 0.36716
+iteration =   32 error = 0.36416
+iteration =   33 error = 0.36115
+iteration =   34 error = 0.35822
+iteration =   35 error = 0.35543
+iteration =   36 error = 0.35281
+iteration =   37 error = 0.35036
+iteration =   38 error = 0.34810
+iteration =   39 error = 0.34605
+iteration =   40 error = 0.34418
+iteration =   41 error = 0.34250
+iteration =   42 error = 0.34097
+iteration =   43 error = 0.33957
+iteration =   44 error = 0.33829
+iteration =   45 error = 0.33711
+iteration =   46 error = 0.33601
+iteration =   47 error = 0.33498
+iteration =   48 error = 0.33401
+iteration =   49 error = 0.33309
+iteration =   50 error = 0.33221
+iteration =   51 error = 0.33136
+iteration =   52 error = 0.33054
+iteration =   53 error = 0.32975
+iteration =   54 error = 0.32897
+iteration =   55 error = 0.32821
+iteration =   56 error = 0.32745
+iteration =   57 error = 0.32668
+iteration =   58 error = 0.32591
+iteration =   59 error = 0.32511
+iteration =   60 error = 0.32425
+iteration =   61 error = 0.32332
+iteration =   62 error = 0.32227
+iteration =   63 error = 0.32105
+iteration =   64 error = 0.31959
+iteration =   65 error = 0.31788
+iteration =   66 error = 0.31593
+iteration =   67 error = 0.31389
+iteration =   68 error = 0.31201
+iteration =   69 error = 0.31034
+iteration =   70 error = 0.30869
+iteration =   71 error = 0.30702
+iteration =   72 error = 0.30564
+iteration =   73 error = 0.30590
+iteration =   74 error = 0.30987
+iteration =   75 error = 0.31643
+iteration =   76 error = 0.30377
+iteration =   77 error = 0.29850
+iteration =   78 error = 0.29771
+iteration =   79 error = 0.30204
+iteration =   80 error = 0.29563
+iteration =   81 error = 0.29670
+iteration =   82 error = 0.30547
+iteration =   83 error = 0.30657
+iteration =   84 error = 0.29343
+iteration =   85 error = 0.28638
+iteration =   86 error = 0.28203
+iteration =   87 error = 0.27848
+iteration =   88 error = 0.27556
+iteration =   89 error = 0.27258
+iteration =   90 error = 0.26855
+iteration =   91 error = 0.26640
+iteration =   92 error = 0.26413
+iteration =   93 error = 0.26230
+iteration =   94 error = 0.26015
+iteration =   95 error = 0.25823
+iteration =   96 error = 0.25629
+iteration =   97 error = 0.25438
+iteration =   98 error = 0.25261
+iteration =   99 error = 0.25077
+iteration =  100 error = 0.24909
+nn> 
+iteration =  101 error = 0.24731
+iteration =  102 error = 0.24568
+iteration =  103 error = 0.24395
+iteration =  104 error = 0.24236
+iteration =  105 error = 0.24068
+iteration =  106 error = 0.23912
+iteration =  107 error = 0.23747
+iteration =  108 error = 0.23594
+iteration =  109 error = 0.23431
+iteration =  110 error = 0.23281
+iteration =  111 error = 0.23120
+iteration =  112 error = 0.22976
+iteration =  113 error = 0.22818
+iteration =  114 error = 0.22687
+iteration =  115 error = 0.22540
+iteration =  116 error = 0.22452
+iteration =  117 error = 0.22310
+iteration =  118 error = 0.22297
+iteration =  119 error = 0.22087
+iteration =  120 error = 0.22092
+iteration =  121 error = 0.21794
+iteration =  122 error = 0.21774
+iteration =  123 error = 0.21439
+iteration =  124 error = 0.21417
+iteration =  125 error = 0.21072
+iteration =  126 error = 0.21058
+iteration =  127 error = 0.20694
+iteration =  128 error = 0.20682
+iteration =  129 error = 0.20321
+iteration =  130 error = 0.20309
+iteration =  131 error = 0.19961
+iteration =  132 error = 0.19939
+iteration =  133 error = 0.19631
+iteration =  134 error = 0.19596
+iteration =  135 error = 0.19366
+iteration =  136 error = 0.19339
+iteration =  137 error = 0.19140
+iteration =  138 error = 0.19182
+iteration =  139 error = 0.18767
+iteration =  140 error = 0.18784
+iteration =  141 error = 0.18727
+iteration =  142 error = 0.18806
+iteration =  143 error = 0.18242
+iteration =  144 error = 0.18181
+iteration =  145 error = 0.17974
+iteration =  146 error = 0.18093
+iteration =  147 error = 0.18118
+iteration =  148 error = 0.18115
+iteration =  149 error = 0.18117
+iteration =  150 error = 0.17677
+iteration =  151 error = 0.17341
+iteration =  152 error = 0.17277
+iteration =  153 error = 0.17115
+iteration =  154 error = 0.17080
+iteration =  155 error = 0.17238
+iteration =  156 error = 0.17689
+iteration =  157 error = 0.16792
+iteration =  158 error = 0.16697
+iteration =  159 error = 0.16798
+iteration =  160 error = 0.17248
+iteration =  161 error = 0.18095
+iteration =  162 error = 0.16790
+iteration =  163 error = 0.17127
+iteration =  164 error = 0.17504
+iteration =  165 error = 0.16815
+iteration =  166 error = 0.16828
+iteration =  167 error = 0.17407
+iteration =  168 error = 0.16981
+iteration =  169 error = 0.16658
+iteration =  170 error = 0.17205
+iteration =  171 error = 0.16639
+iteration =  172 error = 0.17365
+iteration =  173 error = 0.16288
+iteration =  174 error = 0.16812
+iteration =  175 error = 0.17371
+iteration =  176 error = 0.16950
+iteration =  177 error = 0.16663
+iteration =  178 error = 0.17169
+iteration =  179 error = 0.16542
+iteration =  180 error = 0.16001
+iteration =  181 error = 0.15719
+iteration =  182 error = 0.16194
+iteration =  183 error = 0.16141
+iteration =  184 error = 0.17519
+iteration =  185 error = 0.17388
+iteration =  186 error = 0.17038
+iteration =  187 error = 0.16394
+iteration =  188 error = 0.17374
+iteration =  189 error = 0.16009
+iteration =  190 error = 0.16243
+iteration =  191 error = 0.16888
+iteration =  192 error = 0.16541
+iteration =  193 error = 0.15837
+iteration =  194 error = 0.16195
+iteration =  195 error = 0.16740
+iteration =  196 error = 0.16934
+iteration =  197 error = 0.15162
+iteration =  198 error = 0.15390
+iteration =  199 error = 0.15700
+iteration =  200 error = 0.17298
+nn> 
+iteration =  201 error = 0.17188
+iteration =  202 error = 0.16630
+iteration =  203 error = 0.16468
+iteration =  204 error = 0.16624
+iteration =  205 error = 0.15378
+iteration =  206 error = 0.15929
+iteration =  207 error = 0.15978
+iteration =  208 error = 0.16363
+iteration =  209 error = 0.15805
+iteration =  210 error = 0.16768
+iteration =  211 error = 0.15157
+iteration =  212 error = 0.15284
+iteration =  213 error = 0.16246
+iteration =  214 error = 0.15190
+iteration =  215 error = 0.14461
+iteration =  216 error = 0.14882
+iteration =  217 error = 0.13920
+iteration =  218 error = 0.14319
+iteration =  219 error = 0.15051
+iteration =  220 error = 0.17126
+iteration =  221 error = 0.16063
+iteration =  222 error = 0.16053
+iteration =  223 error = 0.16019
+iteration =  224 error = 0.15047
+iteration =  225 error = 0.15508
+iteration =  226 error = 0.16023
+iteration =  227 error = 0.16265
+iteration =  228 error = 0.14644
+iteration =  229 error = 0.15134
+iteration =  230 error = 0.14138
+iteration =  231 error = 0.14950
+iteration =  232 error = 0.15682
+iteration =  233 error = 0.15063
+iteration =  234 error = 0.16626
+iteration =  235 error = 0.15416
+iteration =  236 error = 0.15537
+iteration =  237 error = 0.15631
+iteration =  238 error = 0.15310
+iteration =  239 error = 0.14781
+iteration =  240 error = 0.13892
+iteration =  241 error = 0.13180
+iteration =  242 error = 0.14519
+iteration =  243 error = 0.13753
+iteration =  244 error = 0.12965
+iteration =  245 error = 0.13888
+iteration =  246 error = 0.12846
+iteration =  247 error = 0.13689
+iteration =  248 error = 0.13968
+iteration =  249 error = 0.13920
+iteration =  250 error = 0.14685
+iteration =  251 error = 0.14850
+iteration =  252 error = 0.13667
+iteration =  253 error = 0.13082
+iteration =  254 error = 0.15049
+iteration =  255 error = 0.13522
+iteration =  256 error = 0.12966
+iteration =  257 error = 0.13801
+iteration =  258 error = 0.12756
+iteration =  259 error = 0.13465
+iteration =  260 error = 0.14421
+iteration =  261 error = 0.14220
+iteration =  262 error = 0.12683
+iteration =  263 error = 0.13074
+iteration =  264 error = 0.11957
+iteration =  265 error = 0.12100
+iteration =  266 error = 0.13608
+iteration =  267 error = 0.12985
+iteration =  268 error = 0.12163
+iteration =  269 error = 0.12100
+iteration =  270 error = 0.13324
+iteration =  271 error = 0.13858
+iteration =  272 error = 0.12440
+iteration =  273 error = 0.12099
+iteration =  274 error = 0.12246
+iteration =  275 error = 0.13022
+iteration =  276 error = 0.12405
+iteration =  277 error = 0.11738
+iteration =  278 error = 0.11705
+iteration =  279 error = 0.11714
+iteration =  280 error = 0.11757
+iteration =  281 error = 0.11173
+iteration =  282 error = 0.10520
+iteration =  283 error = 0.10351
+iteration =  284 error = 0.10522
+iteration =  285 error = 0.10292
+iteration =  286 error = 0.11184
+iteration =  287 error = 0.10888
+iteration =  288 error = 0.11220
+iteration =  289 error = 0.12179
+iteration =  290 error = 0.12244
+iteration =  291 error = 0.10456
+iteration =  292 error = 0.11835
+iteration =  293 error = 0.11689
+iteration =  294 error = 0.10913
+iteration =  295 error = 0.10695
+iteration =  296 error = 0.10905
+iteration =  297 error = 0.10877
+iteration =  298 error = 0.11327
+iteration =  299 error = 0.11602
+iteration =  300 error = 0.09840
+nn> err=0.098396, MIN_ERR=0.000010
+CHECK ctg[0] : 
+CHECK o[0] = 0.65979, t[0] = 1.0
+CHECK o[1] = 0.11867, t[1] = 0.0
+CHECK o[2] = 0.04860, t[2] = 0.0
+CHECK o[3] = 0.43004, t[3] = 0.0
+CHECK o[4] = 0.00004, t[4] = 0.0
+CHECK o[5] = 0.00015, t[5] = 0.0
+CHECK o[6] = 0.00674, t[6] = 0.0
+CHECK o[7] = 0.00003, t[7] = 0.0
+CHECK o[8] = 0.04876, t[8] = 0.0
+CHECK o[9] = 0.02726, t[9] = 0.0
+CHECK sum_error = 1.02051
+CHECK ctg[1] : 
+CHECK o[0] = 0.04044, t[0] = 0.0
+CHECK o[1] = 0.80944, t[1] = 1.0
+CHECK o[2] = 0.00029, t[2] = 0.0
+CHECK o[3] = 0.01840, t[3] = 0.0
+CHECK o[4] = 0.03194, t[4] = 0.0
+CHECK o[5] = 0.00335, t[5] = 0.0
+CHECK o[6] = 0.10932, t[6] = 0.0
+CHECK o[7] = 0.00000, t[7] = 0.0
+CHECK o[8] = 0.00277, t[8] = 0.0
+CHECK o[9] = 0.00803, t[9] = 0.0
+CHECK sum_error = 0.40510
+CHECK ctg[2] : 
+CHECK o[0] = 0.00076, t[0] = 0.0
+CHECK o[1] = 0.00032, t[1] = 0.0
+CHECK o[2] = 0.78066, t[2] = 1.0
+CHECK o[3] = 0.17103, t[3] = 0.0
+CHECK o[4] = 0.00000, t[4] = 0.0
+CHECK o[5] = 0.00414, t[5] = 0.0
+CHECK o[6] = 0.04849, t[6] = 0.0
+CHECK o[7] = 0.00149, t[7] = 0.0
+CHECK o[8] = 0.00057, t[8] = 0.0
+CHECK o[9] = 0.23426, t[9] = 0.0
+CHECK sum_error = 0.68040
+CHECK ctg[3] : 
+CHECK o[0] = 0.19291, t[0] = 0.0
+CHECK o[1] = 0.03523, t[1] = 0.0
+CHECK o[2] = 0.11564, t[2] = 0.0
+CHECK o[3] = 0.56772, t[3] = 1.0
+CHECK o[4] = 0.00002, t[4] = 0.0
+CHECK o[5] = 0.00041, t[5] = 0.0
+CHECK o[6] = 0.02873, t[6] = 0.0
+CHECK o[7] = 0.00007, t[7] = 0.0
+CHECK o[8] = 0.00881, t[8] = 0.0
+CHECK o[9] = 0.06195, t[9] = 0.0
+CHECK sum_error = 0.87605
+CHECK ctg[4] : 
+CHECK o[0] = 0.00051, t[0] = 0.0
+CHECK o[1] = 0.14945, t[1] = 0.0
+CHECK o[2] = 0.00002, t[2] = 0.0
+CHECK o[3] = 0.00044, t[3] = 0.0
+CHECK o[4] = 0.83387, t[4] = 1.0
+CHECK o[5] = 0.15736, t[5] = 0.0
+CHECK o[6] = 0.00808, t[6] = 0.0
+CHECK o[7] = 0.00154, t[7] = 0.0
+CHECK o[8] = 0.08840, t[8] = 0.0
+CHECK o[9] = 0.01634, t[9] = 0.0
+CHECK sum_error = 0.58827
+CHECK ctg[5] : 
+CHECK o[0] = 0.00000, t[0] = 0.0
+CHECK o[1] = 0.00072, t[1] = 0.0
+CHECK o[2] = 0.00148, t[2] = 0.0
+CHECK o[3] = 0.00045, t[3] = 0.0
+CHECK o[4] = 0.14613, t[4] = 0.0
+CHECK o[5] = 0.76868, t[5] = 1.0
+CHECK o[6] = 0.09321, t[6] = 0.0
+CHECK o[7] = 0.04755, t[7] = 0.0
+CHECK o[8] = 0.00115, t[8] = 0.0
+CHECK o[9] = 0.16882, t[9] = 0.0
+CHECK sum_error = 0.69082
+CHECK ctg[6] : 
+CHECK o[0] = 0.00001, t[0] = 0.0
+CHECK o[1] = 0.00999, t[1] = 0.0
+CHECK o[2] = 0.03351, t[2] = 0.0
+CHECK o[3] = 0.01535, t[3] = 0.0
+CHECK o[4] = 0.00070, t[4] = 0.0
+CHECK o[5] = 0.09195, t[5] = 0.0
+CHECK o[6] = 0.80541, t[6] = 1.0
+CHECK o[7] = 0.00001, t[7] = 0.0
+CHECK o[8] = 0.00001, t[8] = 0.0
+CHECK o[9] = 0.11608, t[9] = 0.0
+CHECK sum_error = 0.46218
+CHECK ctg[7] : 
+CHECK o[0] = 0.00005, t[0] = 0.0
+CHECK o[1] = 0.00007, t[1] = 0.0
+CHECK o[2] = 0.05150, t[2] = 0.0
+CHECK o[3] = 0.01143, t[3] = 0.0
+CHECK o[4] = 0.00124, t[4] = 0.0
+CHECK o[5] = 0.13731, t[5] = 0.0
+CHECK o[6] = 0.00342, t[6] = 0.0
+CHECK o[7] = 0.78011, t[7] = 1.0
+CHECK o[8] = 0.06082, t[8] = 0.0
+CHECK o[9] = 0.30264, t[9] = 0.0
+CHECK sum_error = 0.78839
+CHECK ctg[8] : 
+CHECK o[0] = 0.06180, t[0] = 0.0
+CHECK o[1] = 0.01406, t[1] = 0.0
+CHECK o[2] = 0.00118, t[2] = 0.0
+CHECK o[3] = 0.01419, t[3] = 0.0
+CHECK o[4] = 0.02342, t[4] = 0.0
+CHECK o[5] = 0.00711, t[5] = 0.0
+CHECK o[6] = 0.00023, t[6] = 0.0
+CHECK o[7] = 0.11538, t[7] = 0.0
+CHECK o[8] = 0.86469, t[8] = 1.0
+CHECK o[9] = 0.03626, t[9] = 0.0
+CHECK sum_error = 0.40894
+CHECK ctg[9] : 
+CHECK o[0] = 0.00003, t[0] = 0.0
+CHECK o[1] = 0.00008, t[1] = 0.0
+CHECK o[2] = 0.11465, t[2] = 0.0
+CHECK o[3] = 0.01640, t[3] = 0.0
+CHECK o[4] = 0.00041, t[4] = 0.0
+CHECK o[5] = 0.12008, t[5] = 0.0
+CHECK o[6] = 0.01255, t[6] = 0.0
+CHECK o[7] = 0.35898, t[7] = 0.0
+CHECK o[8] = 0.00910, t[8] = 0.0
+CHECK o[9] = 0.32532, t[9] = 1.0
+CHECK sum_error = 1.30694
+nn> 

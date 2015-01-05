@@ -73,15 +73,18 @@
 
 \section*{提出したレポート一式について}
 レポート一式は
-\verb|``naha:/home/home/teacher/tnal/jikken1-fri/e945734/''|
+\verb|``shell:~tnal/2014-search2-mon/group7/''|
 にアップロードした。
-提出したファイルのディレクトリ構成は以下の通りである。\\
-（補足：必ず下記のように整理しろという指定ではない。
-自分たちでやりやすいようにLevel毎に整理しても構わない）
+提出したファイルのディレクトリ構成は以下の通りである。
+
 \begin{breakbox}
 \begin{verbatim}
-./src/      # 作成したプログラム一式
-./report/   # レポート関係ファイル．図ファイルを含む．
+./             # レポート関係ファイル
+./figs         # 図ファイル,作成したスクリプト.
+./lebel3-3figs # level3-3で使用する図ファイル等
+./level2figs   # level2で使用する図ファイル等
+./levelX       # level3.1で作成したスクリプトファイルと編集したプログラ
+		ム.
 \end{verbatim}
 \end{breakbox}
 
@@ -107,6 +110,24 @@
 \input{level3.4}
 
 \newpage
+\section{levelX オプション課題}
+\subsection{Level 3.1, 3.2 における複数シミュレーションを効率良く行い、集計
+ するスクリプト作成やプログラム修正等。}
+num.cを修正し実行すると,iterationの値だけが出力するようにした.以下のスク
+リプトは./levelX/src/に置いてある
+\begin{itemize}
+ \item $fuga.perl$ \\
+パラメータの値とseed値を変更しながらnn\_numを実行していく.結果は標準出力
+       として出る.
+ \item $hoge2.perl$ \\
+fuga.perlで出た出力をファイルに保存しておきその中から一番収束するのが速
+       い結果の行を出力する(sortコマンドのおかげで使用はしていない)
+ \item $average.perl$ \\
+学習曲線の平均値を出すプログラム.このプログラムを使用する際にはnum.cを修
+       正してerrの値だけが出力されるようにし,その出力をseed値毎にファイ
+       ルを分けて保存すると使用出来る.その際ファイルの名前
+       は'rep[seed値].txt'にする.
+\end{itemize}
 \section{その他: 実験の内容・進め方に関するコメント等}
 % （補足：
 % 今後の為に参考にしたいので、情報工学実験2・探索アルゴリズム1,2で扱った

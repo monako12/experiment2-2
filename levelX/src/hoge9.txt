@@ -1,0 +1,4 @@
+gcc -Wall -O2   -c -o num.o num.c
+gcc -Wall -O2   -c -o sigmoid.o sigmoid.c
+gcc -Wall -O2   -c -o set_problem.o set_problem.c
+gcc  -o nn_num num.o sigmoid.o set_problem.o  -lm
