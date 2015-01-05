@@ -1,4 +1,4 @@
-This is pTeX, Version 3.141592-p3.1.10 (utf8.euc) (Web2C 7.5.4) (format=platex 2012.6.18)  5 JAN 2015 18:48
+This is pTeX, Version 3.141592-p3.1.10 (utf8.euc) (Web2C 7.5.4) (format=platex 2012.6.18)  5 JAN 2015 18:56
 **search2-utf8.tex
 (./search2-utf8.tex
 pLaTeX2e <2006/11/10>+0 (based on LaTeX2e <2003/12/01> patch level 0)
@@ -468,12 +468,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 3962 strings out of 94681
- 51490 string characters out of 1169859
+ 3963 strings out of 94681
+ 51508 string characters out of 1169859
  237659 words of memory out of 1500000
- 7108 multiletter control sequences out of 10000+50000
+ 7109 multiletter control sequences out of 10000+50000
  34808 words of font info for 113 fonts, out of 1200000 for 2000
  566 hyphenation exceptions out of 8191
  29i,12n,42p,409b,1147s stack positions out of 5000i,500n,6000p,200000b,5000s
 
-Output written on search2-utf8.dvi (13 pages, 50572 bytes).
+Output written on search2-utf8.dvi (13 pages, 52104 bytes).
